@@ -9,6 +9,7 @@ int pisano(int m){
         b=c;
         if(a==0 && b==1) return i+1;
     }
+    return -1;
 }
 int hugeFibbNum(long long n, int m){
     int pissa=pisano(m);
